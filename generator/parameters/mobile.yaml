@@ -1,0 +1,23 @@
+license: hourly_pricing_mar19
+username: couchbase
+password: foo123!
+serverVersion: 6.0.1
+syncGatewayVersion: 2.1.3
+clusters:
+  - cluster: cluster1
+    region: eastus
+    groups:
+      - group: server
+        diskSize: 32
+        nodeCount: 5
+        nodeType: Standard_DS3_v2
+        services:
+          - data
+          - query
+          - index
+          - fts
+      - group: syncgateway
+        nodeCount: 3
+        nodeType: Standard_DS3_v2
+        services:
+          - syncGateway

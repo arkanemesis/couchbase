@@ -1,0 +1,23 @@
+{
+    "serverVersion": {
+      "value": "6.0.3"
+    },
+    "syncGatewayVersion": {
+      "value": "2.6.0"
+    },
+    "adminUsername": {
+      "value": "couchbase"
+    },
+    "adminPassword": {
+      "value": "longpass12---"
+    },
+    "license": {
+      "value": "byol_2019"
+    },
+    "uniqueString": {
+      "value": "n4f5pbg2ayvjc"
+    },
+    "prefix":{
+      "value": "cb-ms-"
+    }
+}

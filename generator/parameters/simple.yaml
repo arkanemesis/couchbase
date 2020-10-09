@@ -1,0 +1,20 @@
+license: hourly_pricing
+username: couchbase
+password: foo123!
+serverVersion: 5.5.0
+syncGatewayVersion: 2.1.0
+clusters:
+  - cluster: cluster1
+    region: eastus
+    groups:
+      - group: group1
+        diskSize: 32
+        nodeCount: 5
+        nodeType: Standard_DS3_v2
+        services:
+          - data
+          - query
+          - index
+          - fts
+          - analytics
+          - eventing

@@ -1,0 +1,13 @@
+  clusters:
+    - clusterName: cluster1
+      clusterRegion: westus2
+      subnetAddrPrefix: 10.0.0.0/26
+      vnetName: shodnsvnet
+      clusterMeta:
+      - VMSSgroup: rally
+        CBServerGroup: one
+        nodeCount: 1
+        nodeType: Standard_DS4_v2
+        diskSize: 32
+        services:
+          - data
